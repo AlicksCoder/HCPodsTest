@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HCPodsTest"
-  s.version      = "0.0.1"
-  s.summary      = "A short description of HCPodsTest."
+  s.version      = "1.0.0"
+  s.summary      = "It is a pods test for me!"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,9 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+                    It is a pods test for me!
+                    It is a pods test for me!
+                    It is a pods test for me!
                    DESC
 
   s.homepage     = "https://github.com/AlicksCoder/HCPodsTest"
@@ -91,7 +94,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "HCPrint/*"
-  s.exclude_files = "Classes/Exclude"
+#s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
